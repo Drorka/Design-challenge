@@ -38,6 +38,58 @@
                     color: $light-coral;
                 }
             }
+        }
+    }
+}
+
+@media (max-width: $mobile-breakpoint) {
+    .value-prop {
+        background-color: $sacramento-state-green;
+        height: 1073px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        .value-prop-content {
+            width: 327px;
+            // height: 404px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding-top: 58px;
+    
+            .value-prop-header {
+                width: 240px;
+                height: 160px;
+                display: flex;
+                align-items: center;
+    
+                h2 {
+                    font-size: 32px;
+                    line-height: 32px;
+                    margin: 0;
+                }
             }
+    
+            .value-prop-items {
+                width: 327px;
+                height: 693px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                gap: 32px;
+                
+                li {
+                    height: 94px;
+    
+                    h3 {
+                        color: $light-coral;
+                    }
+                }
+            }
+        }
     }
 }

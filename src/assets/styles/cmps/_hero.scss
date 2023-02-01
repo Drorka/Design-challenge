@@ -30,5 +30,51 @@
             align-items:end;
 
         }
+    }
 }
+
+@media (max-width: $mobile-breakpoint) {
+    .hero{
+    background-color: $midnight-green;    
+    height: 487px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        .hero-content {
+            width: 327px;
+            height: 210px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            .hero-header {
+                width: 327px;
+                height: 80px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                h1 {
+                    font-size: 40px;
+                    line-height: 40px;
+                }
+
+                span {
+                    color: $light-coral;
+                }
+            }
+
+            .hero-description {
+                width: 327px;
+                height: 112px;
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+    }
 }

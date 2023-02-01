@@ -17,3 +17,29 @@
         }
     }
 }
+
+@media (max-width: $mobile-breakpoint) {
+    .cta {
+        background-color:$light-coral;
+        height: 302px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .cta-content {
+            height: 136px;
+            width: 327px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+            h2 {
+                color: $sacramento-state-green;
+                font-size: 32px;
+                line-height: 32px;
+            }
+        }
+    }
+}

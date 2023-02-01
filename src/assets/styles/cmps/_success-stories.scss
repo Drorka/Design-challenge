@@ -40,3 +40,55 @@
         }
     }
 }
+
+@media (max-width: $mobile-breakpoint) {
+    .success-stories {
+        background-color: $deep-jungle-green;
+        height: 1410px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .success-stories-content {
+            width: 327px;
+            height: 1106px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            .success-stories-header {
+                width: 100%;
+                height: 128px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                h2 {
+                    font-size: 32px;
+                    line-height: 32px;
+                }
+
+                span {
+                    color: $rapture-blue;
+                }
+            }
+    
+            .success-stories-items {
+                width: 100%;
+                height: 930px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+    
+                h3 {
+                    color: $rapture-blue
+                }
+            }
+        }
+    }
+}
