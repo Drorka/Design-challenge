@@ -1,0 +1,43 @@
+.value-prop {
+    background-color: $sacramento-state-green;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .value-prop-content {
+        width: 1110px;
+        height: 404px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-top: 58px;
+
+        .value-prop-header {
+            width: 445px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+
+            h2 {
+                margin: 0;
+            }
+        }
+
+        .value-prop-items {
+            width: 540px;
+            height: 346px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            
+            li {
+                height: 94px;
+
+                h3 {
+                    color: $light-coral;
+                }
+            }
+            }
+    }
+}
