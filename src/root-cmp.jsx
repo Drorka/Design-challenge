@@ -5,7 +5,7 @@ import { HomePage } from './pages/home-page'
 
 export function RootCmp() {
 	return (
-		<div>
+		<div className="main-container">
 			<AppHeader />
 			<HomePage />
 			<AppFooter />
