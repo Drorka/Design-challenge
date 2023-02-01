@@ -1,7 +1,59 @@
 .app-footer{
-    background-color: #111;
-    color: $clr4;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
+    background-color: $dark-green;
+    color:$white;
+    height: 196px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .app-footer-content {
+        width: 1110px;
+        height: 100px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+
+    .app-footer-left {
+        width: 730px;
+        height: 100px;
+        display: flex;
+
+        .app-footer-nav {
+            width: 285px;
+            height: 100%;
+        }
+
+        .app-footer-location {
+            width: 445px;
+            height: 100%;
+            font-size: 15px;
+            line-height: 25px;
+            font-family: 'Livvic-SemiBold', sans-serif;
+            color: rgba(225, 225, 225, 0.8);
+        }
+    }
+
+    .app-footer-right {
+        width: 380px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        .app-footer-social {
+
+        }
+
+        .app-footer-copyrights {
+            font-size: 15px;
+            line-height: 25px;
+            font-family: 'Livvic-SemiBold', sans-serif;
+            color: rgba(225, 225, 225, 0.8);
+
+        }
+    }
+
+
+    }
 }

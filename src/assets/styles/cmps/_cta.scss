@@ -1,0 +1,19 @@
+.cta {
+    background-color:$light-coral;
+    height: 196px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cta-content {
+        height: 48px;
+        width: 917px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        h2 {
+            color: $sacramento-state-green;
+        }
+    }
+}
