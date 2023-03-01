@@ -1,2 +1,4 @@
-# Coding Academy
-## React Starter
+
+## Pixel Perfect Challenge
+
+A challenge from a Full Stack bootcamp
